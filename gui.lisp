@@ -6,8 +6,10 @@
 ;; sudo emerge patchelf
 ;; sudo apt install patchelf
 ;; sudo pacman -S patchelf
-; export LD_LIBRARY_PATH="/home/martin/quicklisp/local-projects/tecgraf-libs/libs/:$LD_LIBRARY_PATH"
-(ql:quickload "tecgraf-libs")
+;; export LD_LIBRARY_PATH="/home/martin/quicklisp/local-projects/tecgraf-libs/libs/:$LD_LIBRARY_PATH"
+;; https://www.reddit.com/r/Common_Lisp/comments/au0dmv/more_iup_gui_stuff/
+;;(ql:quickload "tecgraf-libs") ;; needs to run only once
+;; 
 (ql:quickload "iup")
 
 (defpackage #:gui
